@@ -1,7 +1,16 @@
 aid: jiraaf
 name: Jiraaf
-description: 'Jiraaf is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Jiraaf (Jiraaf Platform Private Limited, Bangalore, India) is an online
+  fixed-income investment platform that lets retail investors discover, analyze, and
+  invest in listed and secured bonds. Its curated product shelf spans listed corporate
+  bonds, sovereign gold bonds, treasury bills, G-Secs and State Development Loans (SDLs),
+  securitized debt instruments (SDIs), and fixed deposits, each surfaced with transparent
+  yields, credit ratings, and a documented credit-evaluation process. Alongside the
+  investing surface it publishes research reports, a bond analyser, a bond directory,
+  a glossary, calculators, and educational content (Bond Gurukul webinars, blogs, and
+  newsletters). Backed by Accel. Jiraaf is a consumer-facing web and mobile investing
+  product and does not publish a public developer API; this profile captures its identity
+  and public web properties for the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/jiraaf/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +18,29 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.jiraaf.com/images/jiraaf-favicon.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Fintech
+- Bonds
+- Fixed Income
+- Investing
+- Wealth Management
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +48,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/jiraaf-domain-security.yml
 - type: Website
   url: https://www.jiraaf.com/
+- type: Blog
+  url: https://www.jiraaf.com/blogs
+- type: Support
+  url: https://www.jiraaf.com/contact-us
+- type: Login
+  url: https://www.jiraaf.com/login
+- type: TermsOfService
+  url: https://www.jiraaf.com/terms-and-condition
+- type: PrivacyPolicy
+  url: https://www.jiraaf.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
