@@ -64,6 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Jiraaf is a company surfaced as a portfolio company of accel and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.
+Jiraaf (Jiraaf Platform Private Limited, Bangalore, India) is an online fixed-income investment platform that lets retail investors discover, analyze, and invest in listed and secured bonds. Its curated product shelf spans listed corporate bonds, sovereign gold bonds, treasury bills, G-Secs and State Development Loans (SDLs), securitized debt instruments (SDIs), and fixed deposits, each surfaced with transparent yields, credit ratings, and a documented credit-evaluation process. Alongside the investing surface it publishes research reports, a bond analyser, a bond directory, a glossary, calculators, and educational content (Bond Gurukul webinars, blogs, and newsletters). Backed by Accel. Jiraaf is a consumer-facing web and mobile investing product and does not publish a public developer API; this profile captures its identity and public web properties for the API Evangelist network.
 
-Backed by: accel — https://www.jiraaf.com/
+**Areas:** Company · Fintech · Bonds · Fixed Income · Investing · Wealth Management · India
+
+## Jiraaf on APIs.io
+
+Everything profiled for Jiraaf is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/jiraaf/](https://apis.io/providers/jiraaf/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Jiraaf Domain Security](https://apis.io/security/jiraaf/jiraaf-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.jiraaf.com/)
+- [Support](https://www.jiraaf.com/contact-us)
+- [Blog](https://www.jiraaf.com/blogs)
+- [Terms of service](https://www.jiraaf.com/terms-and-condition)
+- [Privacy policy](https://www.jiraaf.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 11.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 27.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/jiraaf/](https://apis.io/providers/jiraaf/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Jiraaf: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/jiraaf/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
